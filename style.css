@@ -1,0 +1,44 @@
+body {
+  background-color: rgb(215, 249, 255);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+nav {
+  width: 100%;
+  text-align: center;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+
+.navlinks {
+  padding: 10px;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: black;
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  display: inline-block;
+}
+table,
+td,
+tr,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.submitBtn {
+  margin-top: 4px;
+  padding-top: 4px;
+}
